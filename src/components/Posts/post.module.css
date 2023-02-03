@@ -1,0 +1,31 @@
+.ul{
+    list-style-type: none;
+}
+.ul li{
+    background: silver;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list p{
+    display: block;
+    margin: 0 auto;
+}
+.list button{
+    background: #f2f2f2;
+    padding: 8px 12px;
+}
+.ul .activeButton{
+    background:rgb(154, 204, 221);
+    font-size: 18px;
+}
+.loading{
+    margin-top: 35px;
+    font-size: 24px;
+    color: rgb(30, 84, 125);
+}
