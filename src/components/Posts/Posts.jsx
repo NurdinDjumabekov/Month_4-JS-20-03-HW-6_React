@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import API from '../../api'
 import Comments from '../Comments/Comments';
-
 import styles from './post.module.css'
 
 function Posts()
@@ -22,7 +21,7 @@ function Posts()
         if (clickedPostId === idsnik) setClickedPostId(0)
         else setClickedPostId(idsnik)
     }
-
+    
     return (
         <>
             {finish ?
@@ -44,4 +43,4 @@ function Posts()
     )
 }
 
-export default Posts
+export default Posts 

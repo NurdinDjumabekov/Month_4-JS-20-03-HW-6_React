@@ -1,31 +1,38 @@
-.ul{
-    list-style-type: none;
+.ul {
+  list-style-type: none;
 }
-.ul li{
-    background: silver;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    padding: 20px;
+.ul li {
+  background: aqua;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
 }
-.list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.list p{
-    display: block;
-    margin: 0 auto;
+.list p {
+  display: block;
+  margin: 0 auto;
+  color: #000;
 }
-.list button{
-    background: #f2f2f2;
-    padding: 8px 12px;
+.list button {
+  background: #f2f2f2;
+  padding: 8px 12px;
+  transition: 0.8s;
 }
-.ul .activeButton{
-    background:rgb(154, 204, 221);
-    font-size: 18px;
+.list button:hover {
+  background-color: antiquewhite;
+  scale: 1.1;
+  border: 1px solid black;
 }
-.loading{
-    margin-top: 35px;
-    font-size: 24px;
-    color: rgb(30, 84, 125);
+.ul .activeButton {
+  background: rgb(154, 204, 221);
+  font-size: 18px;
+}
+.loading {
+  margin-top: 35px;
+  font-size: 24px;
+  color: black;
 }
